@@ -17,8 +17,7 @@ Antivirus desarrollado en Java con JavaFX que permite analizar archivos para det
 
 ### 2️⃣ Clonar el repositorio
 ```sh
- git clone https://github.com/tu-repo/antivirus-java.git
- cd antivirus-java
+ git clone https://github.com/spectuu/Byte-Analyzer
 ```
 
 ### 3️⃣ Compilar y ejecutar
