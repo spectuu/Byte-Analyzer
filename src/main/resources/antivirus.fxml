@@ -45,17 +45,17 @@
                </font>
             </Label>
             <TextField fx:id="virusSequence" layoutX="33.0" layoutY="424.0" promptText="15,14,15,17,18" />
-            <Label layoutX="35.0" layoutY="129.0" prefHeight="35.0" prefWidth="146.0" text="Status:" textAlignment="CENTER">
+            <Label layoutX="35.0" layoutY="214.0" prefHeight="35.0" prefWidth="146.0" text="Status:" textAlignment="CENTER">
                <font>
                   <Font name="System Bold Italic" size="24.0" />
                </font>
             </Label>
-            <Text fx:id="status" layoutX="33.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NaN" textAlignment="CENTER" wrappingWidth="88.4051513671875">
+            <Text fx:id="status" layoutX="33.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NaN" textAlignment="CENTER" wrappingWidth="88.4051513671875">
                <font>
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Text>
-            <Separator layoutY="164.0" prefHeight="5.0" prefWidth="218.0" />
+            <Separator layoutY="249.0" prefHeight="5.0" prefWidth="218.0" />
             <Separator layoutY="60.0" prefHeight="5.0" prefWidth="218.0" />
             <Text fill="#dc2828" layoutX="35.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The sequence must be equals or greater than 3 bytes" textAlignment="CENTER" wrappingWidth="146.39999999999986" />
          </children></AnchorPane>

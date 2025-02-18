@@ -113,7 +113,7 @@ public class AntivirusController {
             byte[] bytes = FileComponent.getInstance().mapNewSequence(sequenceArray);
             virusDetected = FileComponent.getInstance().analyzeBytes(fileBytesArray, bytes);
 
-            if (virusDetected.contains("NaN")) {
+            if (virusDetected.isEmpty()) {
                 virusDetected = FileComponent.getInstance().analyzeBytes(fileBytesArray);
             } else {
                 virusBytesArray = bytes;
@@ -121,7 +121,7 @@ public class AntivirusController {
 
         }
 
-        if (virusDetected.contains("NaN")) {
+        if (virusDetected.isEmpty()) {
 
             status.setText("File is clean!");
             virusName.setText("NaN");
