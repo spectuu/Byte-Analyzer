@@ -61,11 +61,14 @@ public class FileComponent {
 
     // method to analyze a file and detect new viruses
     public List<String> analyzeBytes(byte[] fileBytes, byte[] virusBytes) {
+
+        List<String> detectedViruses = new ArrayList<>();
+
         if (containsSequence(fileBytes, virusBytes)) {
-            return List.of("Virus Detected");
+            detectedViruses.add("New Virus");
         }
 
-        return List.of("No Virus");
+        return detectedViruses;
     }
 
     // method to analyze the sequence of bytes in a file
